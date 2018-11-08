@@ -1,0 +1,18 @@
+{
+  "name": "hejtiger-framework",
+  "description": "Hejtigers starting wordpress framework",
+  "main": "index.js",
+  "authors": [
+    "Jesper Thabo Rasmussen"
+  ],
+  "license": "ISC",
+  "homepage": "hejtiger.dk",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

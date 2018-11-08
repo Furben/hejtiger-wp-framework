@@ -1,0 +1,14 @@
+ul.hovedmenu {
+	padding-left: 0;
+
+	li {
+		list-style: none;
+		font-weight: 600;
+		display: inline-block;
+
+		a {
+			color: $link-color;
+		}
+	}
+}
+

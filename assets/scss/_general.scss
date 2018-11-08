@@ -1,0 +1,131 @@
+/**
+ * ----------------------------------------------------------------------------------------
+ * General styles.
+ * ----------------------------------------------------------------------------------------
+ */
+
+* { box-sizing: border-box; }
+
+html {
+	font-size: 100%;
+}
+
+body {
+	position: relative;	
+	color: $body-text-color;
+	font-size: $base-font-size;
+	line-height: $baseline;
+	font-family: $body-text-font;
+	-webkit-font-smoothing: antialiased;
+}
+
+/**
+ * Default spacing for paragraphs.
+ */
+p {
+	margin-bottom: $baseline;
+}
+
+/**
+ * Default styles for all headings.
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: $baseline;
+	font-family: $heading-font;
+}
+
+/**
+ * Individual styles for the headings.
+ */
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+/**
+ * Links.
+ */
+a {
+	color: $link-color;
+	text-decoration: none;
+
+	&:hover {
+		color: $link-hover-color;
+		text-decoration: underline;
+	}
+
+	&:focus, &:active {
+		outline: none;
+	}
+}
+
+/**
+ * Blockquotes.
+ */
+blockquote {
+	font-style: italic;
+	font-size: 1.1em;
+	padding: 0.5em;
+
+	cite {
+		display: block;
+	}
+}
+
+/**
+ * HR.
+ */
+hr {
+	margin: $baseline 0;
+	border-color: $border-color;
+}
+
+/**
+ * Make sure videos and embeds fit inside their containers.
+ */
+embed,
+iframe,
+object,
+video {
+	height: auto;
+	max-width: 100%;
+}
+
+/**
+ * Helper Elements 
+ */
+
+.hide {
+	display: none;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+/**
+ * Code.
+ */
+code {
+	white-space: normal;
+}

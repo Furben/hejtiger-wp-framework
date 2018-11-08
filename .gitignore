@@ -1,0 +1,13 @@
+node_modules
+node_modules/*
+
+### Bower ###
+bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
+
+/assets/.sass-cache/
+/assets/.sass-cache/*
+
+dist
