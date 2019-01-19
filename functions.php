@@ -45,7 +45,7 @@ add_action( 'wp_enqueue_scripts', 'hejtiger_theme_js' );
             
             wp_enqueue_style( 'googleFonts' , 'http://fonts.googleapis.com/css?family=Muli:300,400|Nunito');
 
-            wp_enqueue_style( 'font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', null, '4.7.0' );
+            wp_enqueue_style( 'font-awesome', 'https://use.fontawesome.com/releases/v5.6.3/css/all.css' );
         }
     
     add_action('wp_enqueue_scripts', 'hejtiger_custom_fonts');
